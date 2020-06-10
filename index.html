@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Игра на JavaScript</title>
+	<link rel="stylesheet" href="css/game.css">
+</head>
+<body>
+	<canvas id="game" width="608" height="608"></canvas>
+		
+		<dialog id="dialog">
+		  	<div class="conteinershop">
+			<div id="bayblue"><img src="/img/blue.png"><br>100</div>
+			<div id="bayred"><img src="/img/red.png"><br>100</div>
+			<div id="baygreen"><img src="/img/green.png"><br>100</div>
+			<div id="baygray"><img src="/img/gray.png"><br>100</div>
+			<div id="baybp"><img src="img/Battle_Pass_icon (1).png"><br>1000</div>
+		</div>
+		  <button id="close">Close</button>
+		</dialog>
+		<button id="show">Shop</button>
+				
+				<dialog id="gameovers">
+				<button id="restart">rest</button>
+				<h1 class="textdlke">Нажмите пробел для рестарта</h1>
+				<h1 id="winrankpoint">Вы заработали за этот матч - <span id="rankedmatch"></span></h1>
+		    	</dialog>
+		    	<button id="showgameover"></button>
+		    		
+				<dialog id="rankidstats">
+					<div class="conteinershop">
+
+						<div class="containerbattlepass">
+							<ul>
+								<li>
+									<h1>1</h1>
+								</li>
+								
+								<li>
+									<h1>2</h1>
+								</li>
+								
+								<li>
+									<h1>3</h1>
+								</li>
+								
+								<li>
+									<h1>4</h1>
+								</li>
+								
+								<li>
+									<h1>5</h1>
+								</li>
+								
+								<li>
+									<h1>6</h1>
+								</li>
+								
+								<li>
+									<h1>7</h1>
+								</li>
+								
+								<li>
+									<h1>8</h1>
+								</li>
+								
+								<li>
+									<h1>9</h1>
+								</li>
+								
+								<li>
+									<h1>10</h1>
+								</li>
+							</ul>
+						</div>
+
+						<div class="containerbattlepassnagrada">
+							<ul>
+								<li>
+									<h1>25 монет</h1>
+								</li>
+
+								<li>
+									<h1>50 монет</h1>
+								</li>
+
+								<li>
+									<img src="img/yellow.png">
+								</li>
+
+								<li>
+									<h1>75 монет</h1>
+								</li>
+
+								<li>
+									<h1>100 монет</h1>
+								</li>
+
+								<li>
+									<img src="img/violet.png">
+								</li>
+
+								<li>
+									<h1>125 монет</h1>
+								</li>
+
+								<li>
+									<h1>150 монет</h1>
+								</li>
+
+								<li>
+									<h1>175 монет</h1>
+								</li>
+
+								<li>
+									<img src="img/black.png">
+								</li>
+							</ul>
+						</div>
+
+						<div class="containerbattlepassnagradazabr">
+							<ul>
+								<li id="n1">
+									<h1>Забрать</h1>
+								</li>
+
+								<li id="n2">
+									<h1>Забрать</h1>
+								</li>
+
+								<li id="n3">
+									<h1>Забрать</h1>
+								</li>
+
+								<li id="n4">
+									<h1>Забрать</h1>
+								</li>
+
+								<li id="n5">
+									<h1>Забрать</h1>
+								</li>
+
+								<li id="n6">
+									<h1>Забрать</h1>
+								</li>
+
+								<li id="n7">
+									<h1>Забрать</h1>
+								</li>
+
+								<li id="n8">
+									<h1>Забрать</h1>
+								</li>
+
+								<li id="n9">
+									<h1>Забрать</h1>
+								</li>
+
+								<li id="n10">
+									<h1>Забрать</h1>
+								</li>
+							</ul>
+						</div>
+
+					</div>	
+					<button id="clos">Close</button>
+		    	</dialog>
+		    	<button id="open">Battle Pass</button>
+
+	
+
+
+			<!-- <div id="shopopen">Магазин</div>
+			<div class="conteinershop">
+			<div id="bayblue"><img src="../zmeika/img/blue.png"><br>100</div>
+			<div id="bayred"><img src="../zmeika/img/red.png"><br>100</div>
+			<div id="baygreen"><img src="../zmeika/img/green.png"><br>100</div>
+			<div id="baygray"><img src="../zmeika/img/gray.png"><br>100</div>
+		</div> -->
+	<script src="js/game.js"></script>
+</body>
+</html>
